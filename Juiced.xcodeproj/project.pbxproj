@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F33A51B1DF5FEA000C3A725 /* ViewControllerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33A51A1DF5FEA000C3A725 /* ViewControllerPicker.swift */; };
+		3F6863B41DFF51E70025CC00 /* lookUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6863B31DFF51E70025CC00 /* lookUP.swift */; };
 		3F8877D71DF2171900688CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8877D61DF2171900688CDB /* AppDelegate.swift */; };
 		3F8877D91DF2171900688CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8877D81DF2171900688CDB /* ViewController.swift */; };
 		3F8877DC1DF2171900688CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8877DA1DF2171900688CDB /* Main.storyboard */; };
 		3F8877DF1DF2171900688CDB /* Juiced.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F8877DD1DF2171900688CDB /* Juiced.xcdatamodeld */; };
 		3F8877E11DF2171900688CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8877E01DF2171900688CDB /* Assets.xcassets */; };
 		3F8877E41DF2171900688CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8877E21DF2171900688CDB /* LaunchScreen.storyboard */; };
+		3F8877EC1DF22D7000688CDB /* viewControllerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8877EB1DF22D7000688CDB /* viewControllerStats.swift */; };
+		3FF26E751DF9CF6600DE3AB2 /* resultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF26E741DF9CF6600DE3AB2 /* resultScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F33A51A1DF5FEA000C3A725 /* ViewControllerPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerPicker.swift; path = ../ViewControllerPicker.swift; sourceTree = "<group>"; };
+		3F6863B31DFF51E70025CC00 /* lookUP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lookUP.swift; sourceTree = "<group>"; };
 		3F8877D31DF2171900688CDB /* Juiced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juiced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8877D61DF2171900688CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8877D81DF2171900688CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		3F8877E01DF2171900688CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8877E31DF2171900688CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8877E51DF2171B00688CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8877EB1DF22D7000688CDB /* viewControllerStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewControllerStats.swift; sourceTree = "<group>"; };
+		3FF26E741DF9CF6600DE3AB2 /* resultScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				3F8877D61DF2171900688CDB /* AppDelegate.swift */,
+				3FF26E741DF9CF6600DE3AB2 /* resultScreen.swift */,
+				3F33A51A1DF5FEA000C3A725 /* ViewControllerPicker.swift */,
 				3F8877D81DF2171900688CDB /* ViewController.swift */,
+				3F6863B31DFF51E70025CC00 /* lookUP.swift */,
+				3F8877EB1DF22D7000688CDB /* viewControllerStats.swift */,
 				3F8877DA1DF2171900688CDB /* Main.storyboard */,
 				3F8877E01DF2171900688CDB /* Assets.xcassets */,
 				3F8877E21DF2171900688CDB /* LaunchScreen.storyboard */,
@@ -99,6 +111,7 @@
 				TargetAttributes = {
 					3F8877D21DF2171900688CDB = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -138,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6863B41DFF51E70025CC00 /* lookUP.swift in Sources */,
+				3F33A51B1DF5FEA000C3A725 /* ViewControllerPicker.swift in Sources */,
 				3F8877D91DF2171900688CDB /* ViewController.swift in Sources */,
 				3F8877DF1DF2171900688CDB /* Juiced.xcdatamodeld in Sources */,
+				3F8877EC1DF22D7000688CDB /* viewControllerStats.swift in Sources */,
+				3FF26E751DF9CF6600DE3AB2 /* resultScreen.swift in Sources */,
 				3F8877D71DF2171900688CDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +274,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = finalProject.Juiced;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -268,6 +286,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = finalProject.Juiced;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -290,6 +309,7 @@
 				3F8877EA1DF2171B00688CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
